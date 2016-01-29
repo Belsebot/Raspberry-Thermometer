@@ -56,7 +56,7 @@ try:
 
 		if deg_c>temp_max:                #if current temperature is higher than max temperature
 			temp_max=deg_c                  #then make it new max temperature
-		if deg_c<temp_min:                #if current temperature is lower than low temperature
+		if deg_c<temp_min:                #if current temperature is lower than min temperature
 			temp_min=deg_c                  #then make it new min temperature
 
 		time.sleep(60)
